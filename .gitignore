@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+.env
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project
+.claude/
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Data / models (large files)
+*.pt
+*.pth
+*.onnx
+*.wav
+*.mp3
+data/
+checkpoints/
